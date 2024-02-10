@@ -8,12 +8,12 @@ const argv = require('yargs')
                 .option('r', {
                     alias: 'rango',
                     type:'number',
-                    describe: 'limte de multiplicaciones'
+                    describe: 'limte de multiplicaciones',
+                    default: 12
                 })
                 .option( 'l', {
                     alias: 'listar',
                     type: 'boolean',
-                    demandOption: true,
                     default: false,
                     describe: 'muestra la tabla en consola'
                 })
